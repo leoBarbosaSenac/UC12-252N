@@ -36,33 +36,5 @@ Você pode seguir esta sugestão de estrutura:
 - História e origem
 - Saiba mais
 
-## Regras técnicas
 
-- Crie um arquivo chamado `index.html`.
-- Utilize a estrutura básica de um documento HTML.
-- Utilize corretamente as tags `<h1>`, `<h2>`, `<p>`, `<ul>`, `<li>`, `<img>` e `<a>`.
-- Organize o código utilizando indentação.
-- Feche corretamente as tags que exigem fechamento.
-- Utilize comentários HTML quando considerar necessário.
-- Não utilize CSS ou JavaScript neste exercício. Concentre-se na estruturação do conteúdo com HTML.
-
-## Entrega
-
-Ao finalizar, abra o arquivo `index.html` no navegador e verifique se a página está funcionando corretamente.
-
-Confira se todas as informações estão presentes, se a imagem é exibida e se o link externo funciona.
-
-Entregue o arquivo `index.html` e os arquivos de imagem utilizados, caso estejam salvos localmente.
-
-## Desafio extra
-
-Adicione uma tabela HTML com informações adicionais sobre o personagem, como primeira aparição, espécie, idade, habilidades ou outros dados relevantes.
-
-## Critérios de avaliação
-
-- Utilize corretamente a estrutura HTML.
-- Inclua todos os elementos solicitados.
-- Mantenha o código organizado e legível.
-- Apresente informações relevantes sobre o personagem.
-- Garanta o funcionamento dos links e o carregamento das imagens.
 
