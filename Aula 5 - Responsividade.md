@@ -438,3 +438,41 @@ Pense em:
 > **"Fazer a interface continuar funcionando e sendo confortável de usar em diferentes tamanhos de tela."**
 
 A responsividade combina **HTML, CSS, Flexbox e Media Queries** e, principalmente, decisões de layout.
+
+# Atividade – Responsividade da Interface do Instagram
+
+## 1. Objetivo
+
+Nesta atividade, vocês irão trabalhar na **responsividade da interface do Instagram** desenvolvida anteriormente com HTML e CSS.
+
+O objetivo é adaptar a página para que ela apresente uma boa organização visual em diferentes tamanhos de tela, como computadores, tablets e celulares.
+
+## 2. O que deverá ser feito?
+
+Utilizando o projeto do Instagram que vocês já desenvolveram, façam as adaptações necessárias para que a interface se ajuste a diferentes resoluções.
+
+A atividade deverá contemplar:
+
+- **Media Queries:** utilize `@media` para definir estilos específicos de acordo com o tamanho da tela.
+- **Layout responsivo:** ajuste os elementos da página para que se organizem corretamente em telas menores.
+- **Flexbox:** revise as configurações de `display: flex`, alinhamentos e espaçamentos quando necessário.
+- **Elementos visuais:** ajuste larguras, alturas, margens e espaçamentos para evitar que os elementos fiquem cortados ou ultrapassem os limites da tela.
+- **Imagens:** garanta que as imagens acompanhem o tamanho disponível, sem perder suas proporções.
+
+## 3. Tamanhos de tela
+
+A interface deverá ser adaptada para pelo menos três situações:
+
+1. **Desktop:** telas maiores, mantendo a estrutura original da atividade.
+2. **Tablet:** telas intermediárias, com os ajustes necessários na disposição dos elementos.
+3. **Celular:** telas menores, reorganizando os elementos para proporcionar uma boa experiência de navegação.
+
+## 4. Orientações
+
+- Trabalhe sobre os arquivos HTML e CSS da atividade anterior.
+- Utilize CSS externo para realizar as alterações.
+- Evite criar uma página diferente para cada resolução. A proposta é adaptar a mesma interface.
+- Teste os diferentes tamanhos de tela utilizando as ferramentas de desenvolvedor do navegador.
+- Organize seu código e utilize comentários quando necessário para identificar as Media Queries.
+
+
