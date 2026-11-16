@@ -818,8 +818,6 @@ Assim, todos os botões compartilham os mesmos estilos.
 
 ---
 
-# Exercício
-
 # Exercício — Desenvolvimento de Interface Web
 
 ## Proposta
