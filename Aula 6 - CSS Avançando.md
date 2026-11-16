@@ -818,288 +818,79 @@ Assim, todos os botões compartilham os mesmos estilos.
 
 ---
 
-# Exercícios
+# Exercício
 
-Os exercícios desta aula têm como objetivo praticar:
+# Exercício — Desenvolvimento de Interface Web
 
-- Variáveis CSS.
-- `:root`.
-- `var()`.
-- Organização de classes.
-- Introdução ao BEM.
-- Boas práticas de CSS.
-- Aplicação desses conhecimentos em layouts responsivos.
+## Proposta
 
----
+Desenvolva uma interface web escolhendo **uma das três propostas** abaixo. O objetivo é criar uma página visualmente atraente, bem organizada e responsiva, utilizando os conhecimentos de HTML e CSS trabalhados em aula.
 
-# 1. Criando variáveis
+### Opção 1 — Restaurante Italiano de Luxo
 
-Crie uma página com:
+Crie um site para um restaurante italiano de alto padrão, transmitindo elegância, sofisticação e exclusividade.
 
-```html
-<h1>Meu site</h1>
+A interface poderá apresentar:
+- Nome e identidade visual do restaurante.
+- Menu de navegação.
+- Apresentação do restaurante.
+- Seção com pratos e especialidades da casa.
+- Informações sobre o ambiente e a experiência oferecida.
+- Endereço e informações para contato.
 
-<p>
-    Estou aprendendo CSS.
-</p>
+<AsyncImage query="luxury Italian fine dining restaurant website design elegant dark burgundy gold food photography" aspectRatio="16:9" width="100%"/>
 
-<button>
-    Clique aqui
-</button>
-```
+### Opção 2 — Hotel para Turistas em Xangai
 
-No CSS, crie um `:root` contendo pelo menos:
+Crie um site para um hotel localizado em Xangai, na China, voltado para turistas que desejam conhecer a cidade e aproveitar uma hospedagem confortável.
 
-```css
-:root {
+A interface poderá apresentar:
+- Nome e identidade visual do hotel.
+- Menu de navegação.
+- Apresentação do hotel.
+- Tipos de quartos e acomodações.
+- Serviços e comodidades oferecidos.
+- Pontos turísticos de Xangai próximos ao hotel.
+- Informações para contato e localização.
 
-    --cor-principal: ...;
-    --cor-fundo: ...;
-    --cor-texto: ...;
+<AsyncImage query="luxury Shanghai hotel website design skyline hotel room modern Chinese architecture travel" aspectRatio="16:9" width="100%"/>
 
-}
-```
+### Opção 3 — Escritório de Advocacia Criminalista e Trabalhista
 
-Utilize essas variáveis nos elementos da página.
+Crie uma landing page para um escritório de advocacia especializado nas áreas criminal e trabalhista. A página deve transmitir profissionalismo, confiança e credibilidade, apresentando os serviços jurídicos oferecidos pelo escritório.
 
-### Objetivo
+A interface poderá apresentar:
+- Nome e identidade visual do escritório.
+- Apresentação dos advogados ou da equipe.
+- Áreas de atuação: Direito Criminal e Direito Trabalhista.
+- Descrição dos serviços e tipos de atendimento.
+- Diferenciais do escritório.
+- Depoimentos ou avaliações fictícias para fins de demonstração.
+- Seção de contato com formulário ou botão de atendimento.
 
-Praticar `:root` e `var()`.
+<AsyncImage query="modern premium law firm website landing page design dark navy gold professional legal services" aspectRatio="16:9" width="100%"/>
 
----
+## Requisitos técnicos
 
-# 2. Sistema de cores
+Independentemente da opção escolhida, a página deverá utilizar:
 
-Crie as seguintes variáveis:
+- HTML semântico para estruturar o conteúdo.
+- CSS externo para estilização.
+- Classes e IDs com nomes organizados e significativos.
+- Variáveis CSS para armazenar cores e outros valores reutilizáveis.
+- Flexbox para organizar elementos da interface.
+- Media Queries para adaptar o layout a diferentes tamanhos de tela.
+- Imagens coerentes com a proposta escolhida.
 
-```css
-:root {
+## Orientações
 
-    --cor-fundo: ...;
-    --cor-texto: ...;
-    --cor-principal: ...;
-    --cor-secundaria: ...;
-    --cor-borda: ...;
+- Escolha apenas uma das três propostas.
+- Desenvolva uma identidade visual própria, com cores, fontes e elementos que combinem com o tema.
+- Organize as informações de maneira clara e intuitiva.
+- Pesquise referências visuais na internet para se inspirar.
+- A interface deve funcionar tanto em computadores quanto em dispositivos móveis.
 
-}
-```
-
-Depois crie uma página utilizando todas elas.
-
-A página deve possuir:
-
-- Um cabeçalho.
-- Um título.
-- Um parágrafo.
-- Um card.
-- Um botão.
-
-### Desafio
-
-Depois de terminar, altere somente os valores dentro do `:root`.
-
-O restante do CSS deve continuar funcionando.
-
----
-
-# 3. Organizando classes
-
-O código abaixo está funcionando, mas possui nomes ruins:
-
-```html
-<div class="coisa">
-
-    <h2 class="titulo">
-        Meu produto
-    </h2>
-
-    <p class="texto">
-        Um produto muito legal.
-    </p>
-
-    <button class="botao">
-        Comprar
-    </button>
-
-</div>
-```
-
-Reescreva o código utilizando nomes mais descritivos.
-
-Uma possibilidade seria:
-
-```text
-produto
-produto__titulo
-produto__descricao
-produto__botao
-```
-
-### Objetivo
-
-Praticar organização e nomenclatura de classes.
-
----
-
-# 4. Não use a aparência como nome
-
-Crie uma página que possua:
-
-- Um botão principal.
-- Um botão secundário.
-- Um título.
-- Um card.
-
-Não utilize classes como:
-
-```css
-.azul
-.vermelho
-.grande
-.pequeno
-```
-
-Crie nomes baseados na função dos elementos.
-
-Por exemplo:
-
-```css
-.botao-principal
-.botao-secundario
-.card
-.card__titulo
-```
-
-### Objetivo
-
-Aprender a separar função de aparência.
-
----
-
-# 5. Reutilizando classes e variáveis
-
-Crie uma página que apresente pelo menos três cards de produtos.
-
-Cada card deve possuir:
-
-- Nome do produto.
-- Descrição.
-- Preço.
-- Botão de compra.
-
-Utilize as mesmas classes para os elementos que possuem a mesma função.
-
-Crie variáveis CSS para organizar as cores e os espaçamentos.
-
-### Objetivo
-
-Praticar reutilização de classes e variáveis CSS.
-
----
-
-# 6. Organização de um layout responsivo
-
-Crie uma página contendo:
-
-- Um cabeçalho.
-- Um menu de navegação.
-- Uma área principal.
-- Uma seção com três cards.
-- Um rodapé.
-
-Utilize nomes de classes organizados e descritivos.
-
-O layout deve se adaptar a diferentes tamanhos de tela.
-
-Considere:
-
-- Os cards devem ficar lado a lado em telas maiores.
-- Os cards devem ficar organizados verticalmente em telas menores.
-- Os elementos não podem ultrapassar os limites da tela.
-- Os espaçamentos devem permanecer adequados.
-
-Utilize Flexbox e Media Queries.
-
-### Objetivo
-
-Aplicar organização de classes em um projeto responsivo.
-
----
-
-# 7. Projeto — Meu site organizado e responsivo
-
-Crie uma página completa contendo:
-
-```text
-┌──────────────────────────────────┐
-│              HEADER              │
-│          Nome do site            │
-│        Menu de navegação         │
-├──────────────────────────────────┤
-│                                  │
-│              MAIN                │
-│                                  │
-│    ┌──────────┐ ┌──────────┐     │
-│    │   CARD   │ │   CARD   │     │
-│    │          │ │          │     │
-│    │  Título  │ │  Título  │     │
-│    │  Texto   │ │  Texto   │     │
-│    │          │ │          │     │
-│    │ [Botão]  │ │ [Botão]  │     │
-│    └──────────┘ └──────────┘     │
-│                                  │
-├──────────────────────────────────┤
-│              FOOTER              │
-└──────────────────────────────────┘
-```
-
-### HTML
-
-Utilize:
-
-- Tags semânticas.
-- Classes organizadas.
-- Nomes claros e consistentes.
-
-### CSS
-
-Utilize:
-
-- `:root`;
-- Variáveis CSS;
-- `var()`;
-- Organização de classes;
-- Introdução ao BEM;
-- Flexbox;
-- Media Queries.
-
-### Responsividade
-
-O site deve se adaptar a diferentes tamanhos de tela.
-
-Os cards devem ser reorganizados conforme o espaço disponível.
-
----
-
-# Desafio extra ⭐
-
-Crie pelo menos três cards de produtos.
-
-Todos devem compartilhar as mesmas classes e variáveis CSS.
-
-Cada card deve apresentar:
-
-- Nome.
-- Descrição.
-- Preço.
-- Botão.
-
-Em telas maiores, os cards devem ficar lado a lado.
-
-Em telas menores, devem ser organizados verticalmente.
-
-Depois altere os valores das variáveis dentro do `:root` e observe como vários elementos podem mudar ao mesmo tempo.
-
+**Atenção:** o objetivo não é apenas reproduzir um modelo pronto, mas desenvolver uma interface própria, aplicando os conceitos de HTML e CSS estudados em aula.
 ---
 
 # Resumo da aula
